@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card-container {
+    width: 670px;
+    height: 400px;
+    background-color: #1a2348;
+    color: #eeeeee;
+    border-radius: 15px;
+    border: 10px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.scoreboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.display {
+    width: 160px;
+    height: 125px;
+    background-color: #000;
+    color: #f94f6c;
+    border-radius: 5px;
+    font-size: 72px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.increment-button-section {
+    display: flex;
+    margin-top: 20px;
+}
+
+.increment-button {
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    color: #9aaad8;
+    border: 1px solid #9aaad8;
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 28px;
+}
+
+.increment-button:hover {
+    cursor: pointer;
+    background-color: #9aaad8;
+    color: #1a2348;
+}
